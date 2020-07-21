@@ -4,5 +4,6 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(board_arr)
-  puts " #{board[0]}  |  #{board[1]}  "
+  puts " #{board_arr[0]}  |  #{board_arr[1]} | #{board_arr[2]} "
+  puts
 end
